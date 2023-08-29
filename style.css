@@ -8,10 +8,19 @@
 
 :root {
   font-size: 62.5%;
+
+  --color-white: #ffffff;
+  --color-gray: #8d8d99;
+  --color-gray-900: #202024;
+  --font-family: 'Mulish', sans-serif;
 }
 
 body {
   font-size: 1.6rem;
+  background-color: var(--color-white);
+  color: var(--color-gray-900);
+  font-family: var(--font-family);
+
 }
 
 #app {
@@ -27,6 +36,6 @@ body {
 }
 
 main {
-  background-color: lightblue;
   overflow-y: scroll;
+  background-color: var(--color-gray);
 }
