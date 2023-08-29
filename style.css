@@ -12,6 +12,7 @@
   --color-white: #ffffff;
   --color-gray: #8d8d99;
   --color-gray-900: #202024;
+
   --font-family: 'Mulish', sans-serif;
 }
 
@@ -38,4 +39,42 @@ body {
 main {
   overflow-y: scroll;
   background-color: var(--color-gray);
+}
+
+header, 
+nav, 
+nav ul {
+  display: flex;
+  align-items: center;
+  gap:  7.2rem;
+  font-weight: 700;
+}
+
+header form {
+  flex: 1;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1.8rem;
+  color: var(--color-gray);
+}
+
+ul lu.active {
+  color: var(--color-gray-900);
+}
+
+.avatar {
+  width: 4.2rem;
+  height: 4.2rem;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+footer p {
+  text-align: center;
+  padding: 1.6rem;
+  font-weight: 600;
 }
