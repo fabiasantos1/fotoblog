@@ -9,7 +9,7 @@
 :root {
   font-size: 62.5%;
 
-  --hue: 500;
+  --hue: 300;
   --color-white: hsl(0, 0%, 100%);
   --color-gray-100: hsl(0, 0%, 96%);
   --color-gray-300: hsl(var(--hue), 60%, 58%);
